@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy rotation="0">
+  <android.widget.FrameLayout index="0" package="com.example.shopapp" class="android.widget.FrameLayout" resource-id="android:id/content" bounds="[0,0][1080,2400]" displayed="true">
+    <android.widget.LinearLayout index="0" package="com.example.shopapp" class="android.widget.LinearLayout" resource-id="com.example.shopapp:id/root" bounds="[0,0][1080,2400]" displayed="true">
+      <android.widget.RelativeLayout index="0" package="com.example.shopapp" class="android.widget.RelativeLayout" resource-id="com.example.shopapp:id/toolbar" bounds="[0,0][1080,220]" displayed="true">
+        <android.widget.ImageButton index="0" package="com.example.shopapp" class="android.widget.ImageButton" resource-id="com.example.shopapp:id/back_button" content-desc="Navigate up" clickable="true" bounds="[24,48][120,156]" displayed="true" />
+        <android.widget.TextView index="1" package="com.example.shopapp" class="android.widget.TextView" resource-id="com.example.shopapp:id/title" text="Product Details" content-desc="screen title" bounds="[150,60][930,156]" displayed="true" />
+        <android.widget.ImageButton index="2" package="com.example.shopapp" class="android.widget.ImageButton" resource-id="com.example.shopapp:id/cart_button" content-desc="Open cart" clickable="true" bounds="[948,48][1056,156]" displayed="true" />
+      </android.widget.RelativeLayout>
+      <androidx.recyclerview.widget.RecyclerView index="1" package="com.example.shopapp" class="androidx.recyclerview.widget.RecyclerView" resource-id="com.example.shopapp:id/product_list" bounds="[0,220][1080,2000]" displayed="true">
+        <android.widget.LinearLayout index="0" package="com.example.shopapp" class="android.widget.LinearLayout" resource-id="com.example.shopapp:id/product_row" content-desc="product row 1" bounds="[0,220][1080,520]" displayed="true">
+          <android.widget.ImageView index="0" package="com.example.shopapp" class="android.widget.ImageView" resource-id="com.example.shopapp:id/product_image" bounds="[36,240][276,480]" displayed="true" />
+          <android.widget.LinearLayout index="1" package="com.example.shopapp" class="android.widget.LinearLayout" bounds="[300,240][1044,480]" displayed="true">
+            <android.widget.TextView index="0" package="com.example.shopapp" class="android.widget.TextView" resource-id="com.example.shopapp:id/product_name" text="Wireless Headphones" bounds="[300,250][1044,330]" displayed="true" />
+            <android.widget.TextView index="1" package="com.example.shopapp" class="android.widget.TextView" resource-id="com.example.shopapp:id/product_price" text="$129.99" bounds="[300,350][1044,430]" displayed="true" />
+          </android.widget.LinearLayout>
+        </android.widget.LinearLayout>
+        <android.widget.LinearLayout index="1" package="com.example.shopapp" class="android.widget.LinearLayout" resource-id="com.example.shopapp:id/product_row" content-desc="product row 2" bounds="[0,520][1080,820]" displayed="false">
+          <android.widget.ImageView index="0" package="com.example.shopapp" class="android.widget.ImageView" resource-id="com.example.shopapp:id/product_image" bounds="[36,540][276,780]" displayed="false" />
+          <android.widget.LinearLayout index="1" package="com.example.shopapp" class="android.widget.LinearLayout" bounds="[300,540][1044,780]" displayed="false">
+            <android.widget.TextView index="0" package="com.example.shopapp" class="android.widget.TextView" resource-id="com.example.shopapp:id/product_name" text="Smart Speaker" bounds="[300,550][1044,630]" displayed="false" />
+            <android.widget.TextView index="1" package="com.example.shopapp" class="android.widget.TextView" resource-id="com.example.shopapp:id/product_price" text="$89.99" bounds="[300,650][1044,730]" displayed="false" />
+          </android.widget.LinearLayout>
+        </android.widget.LinearLayout>
+      </androidx.recyclerview.widget.RecyclerView>
+      <android.widget.LinearLayout index="2" package="com.example.shopapp" class="android.widget.LinearLayout" resource-id="com.example.shopapp:id/footer" bounds="[0,2000][1080,2400]" displayed="true">
+        <android.widget.Button index="0" package="com.example.shopapp" class="android.widget.Button" resource-id="com.example.shopapp:id/button_add_to_cart" text="Add to cart" content-desc="add to cart button" clickable="true" bounds="[96,2060][984,2180]" displayed="true" />
+        <android.widget.TextView index="1" package="com.example.shopapp" class="android.widget.TextView" resource-id="com.example.shopapp:id/stock_status" text="In stock" bounds="[96,2200][984,2280]" displayed="true" />
+      </android.widget.LinearLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>
